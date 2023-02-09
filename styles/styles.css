@@ -1,0 +1,249 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #F5F7FA;
+}
+/* Main Styles */
+.main{
+display:flex;
+flex-direction: row-reverse;
+width: 1200px;
+margin: 0 auto;
+}
+/* main_content Styles */
+.main_content{
+    background-color: #FFFFFF;
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+    padding: 35px 90px ;a
+}
+/* about styles */
+
+.about{ 
+    margin-bottom: 20px;
+}
+.about-position{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 17px;
+    color: #000000;
+    margin-bottom: 10px ;
+}
+.about-name{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 55px;
+    color: #000000;
+    margin-bottom: 20px ;
+}
+.about-description{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+    width: 650px;
+}
+/* project styles */
+.projects{
+   margin-bottom: 40px;
+
+}
+
+.title{
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 27px;
+color: #000000;
+margin-bottom: 10px;  
+}
+
+.projects-list{
+    padding: 0;
+    margin-left: 15px;
+}
+.projects-item{
+    font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 24px;
+color: #000000;
+}
+.project,.project-link{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+}
+.project-link{
+    margin-left: 10px;
+}
+.project-braket{
+    font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 24px;
+color: #000000;
+
+
+}
+
+/* work styles */
+.work{
+   
+}
+.work-position{
+    font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 20px;
+color: #000000;
+margin-bottom: 10px;
+}
+.organization,.name-university {
+    font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 20px;
+color: #FB6D3A;
+}
+.period{
+    font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 15px;
+color: #4b4646;
+margin-bottom: 10px;
+}
+.line{
+    font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 15px;
+color: #000000;
+}
+.work-list{
+padding: 0;
+margin-left: 15px;
+}
+.work-list-item{
+    font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+color: #595959;
+}
+/* education styles */
+.education{
+margin-top: 45px;
+}
+
+.faculty{
+    font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 17px;
+color: #000000;
+margin-bottom: 10px;
+}
+.name-university{
+    margin-bottom: 10px;
+}
+/* sidebar styles */
+.sidebar{
+    background-color: #1E2939;
+    padding-top: 10px;
+    width: 400px;
+}
+/* phot */
+.photo{
+    width: 370px;
+    margin-bottom: 50px;
+}
+.Contacts,.Tech-Skills,.Soft-Skills,.Language{
+    margin-left: 40px;
+}
+
+.sidebar-title{
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    margin-bottom: 10px;
+}
+.contact-type{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-right: 10px;
+}
+.contact-link{
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+text-decoration: none;
+color: #FFFFFF;
+}
+.tech-skills-list{
+    color: #FFFFFF;
+    padding: 0;
+    margin-left: 17px;
+    margin-bottom: 44px;
+}
+.tech-skills-item{
+   color: #FB6D3A; 
+}
+.tech-skills-text{
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.soft-skills-list{
+    color: #FFFFFF;
+    padding: 0;
+    margin-left: 17px;
+}
+.soft-skills-item{
+    color: #FB6D3A;
+}
+.soft-skils-text{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.aside-inner {
+    padding: 1rem 0;
+  }
+  
+  .aside-item {
+    margin-bottom: 4rem;
+  }
+  
+  .aside-subsection li {
+    margin-bottom: 1rem;
+  }
+  
+  .contact-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+  
+  .contact-icon {
+    width: 1.25rem;
+    height: 1.25rem;
+    margin-right: 0.5rem;
+  }
